@@ -1,3 +1,18 @@
+/** MENUS **/
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
 /**mobile-menu**/
 div.off-canvas {
 	height: 100%;
@@ -10,7 +25,24 @@ div.off-canvas {
 
 
 /**desktop-menu**/
-.desktop-nav {
-	@include  top-bar-container; 
-	
+
+[data-sticky] {
+	max-width: 100%;
+}
+.footer{
+	height:400px;
+	background-color: blue;
+}
+.top-bar {
+	transition: all .35s;
+
+}
+
+.is-stuck .top-bar {
+	padding: 1rem;
+	transition: all .35s;
+}
+.is-at-bottom .top-bar {
+	padding: 1rem;
+	transition: all 0s;
 }
