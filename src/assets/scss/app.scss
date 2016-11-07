@@ -6,10 +6,11 @@
 @import 'components/menu-fouc';
 @import 'components/mobile-nav';
 @import 'components/desktop-nav';
+@import 'components/footer';
 
 @include foundation-global-styles;
 @include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -47,10 +48,16 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-// @include foundation-flex-classes;
+@include foundation-flex-classes;
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
 /** 
 On the fly styling to be split up into components**/
+
+.header {
+  padding: 10rem 0;
+  background: url('http://placehold.it/2000x500&text=this is a header') center center no-repeat;
+  background-size: cover;
+}

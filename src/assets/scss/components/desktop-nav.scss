@@ -3,20 +3,13 @@
 [data-sticky] {
 	width: 100%;
 }
-.footer{
-	height:400px;
-	background-color: blue;
-}
-.top-bar {
-	transition: all .35s;
 
+.top-bar {
+  padding: 2rem;
+  transition: padding .25s ease;
 }
 
 .is-stuck .top-bar {
-	padding: 1rem;
-	transition: all .35s;
-}
-.is-at-bottom .top-bar {
-	padding: 1rem;
-	transition: all 0s;
+  padding: 1rem;
+  transition: padding .25s ease;
 }
