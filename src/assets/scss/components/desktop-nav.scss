@@ -3,7 +3,9 @@
 [data-sticky] {
 	width: 100%;
 }
-
+.sticky-container {
+  height:70px !important;
+}
 .top-bar {
   padding: 2rem;
   transition: padding .25s ease;
