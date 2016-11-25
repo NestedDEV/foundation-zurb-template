@@ -1,20 +1,18 @@
 /**desktop-nav**/
-
+//sticky container and contents
 [data-sticky] {
 	width: 100%;
 }
 .sticky-container {
-	height: 100px !important;
-}
 
+}
 .top-bar {
 	transition: all .35s;
+	width:100%;
 	.top-bar-title h1 {
 		display: none;
 	}
-
 }
-
 .is-stuck .top-bar {
 	padding: 1rem;
 	transition: all .35s;
@@ -27,20 +25,20 @@
 	padding: 1rem;
 	transition: all 0s;
 }
-
+//button group styles
 .btn-group {
 	@include button-group-expand('.hollow-button');
 	.hollow-button:first-child {
-    border-radius: rem-calc(10 0 0 10);
+    border-radius: rem-calc(0 0 0 0);
+
   }
   .hollow-button:last-child {
-    border-radius: rem-calc(0 10 10 0);
+    border-radius: rem-calc(0 0 0 0);
   }
 	
 
 }
 .hollow-button {
 	@include button ($style:hollow);
-	color: $secondary-color;
 	
 }

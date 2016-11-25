@@ -3,11 +3,13 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'bower_components/foundation-icon-fonts/_foundation-icons';
 @import 'components/junction';
 @import 'components/menu-fouc';
 @import 'components/mobile-nav';
 @import 'components/desktop-nav';
 @import 'components/header';
+@import 'components/front-page';
 
 @include foundation-global-styles;
 @include foundation-grid;

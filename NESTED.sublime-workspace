@@ -1,0 +1,832 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"op",
+				"opacify\topacify()"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"fountaion",
+				"foundation-icon-fonts"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"scr",
+				"scroll\tEvent"
+			],
+			[
+				"glo",
+				"global-weight-bold"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"pro",
+				"primary-color"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"incl",
+				"include\t@include"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"wh",
+				"white"
+			],
+			[
+				"pr",
+				"primary-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bak",
+				"background-attachment"
+			],
+			[
+				"fu",
+				"function without name"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"sec",
+				"secondary-color"
+			],
+			[
+				"pa",
+				"placeholder\tAttr"
+			],
+			[
+				"hr",
+				"href\tAttr"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"cons",
+				"console.log()"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"va",
+				"value\tAttr"
+			],
+			[
+				"bakgr",
+				"background-color"
+			],
+			[
+				"backgriu",
+				"background-size"
+			],
+			[
+				"sepa",
+				"Separator"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"au",
+				"autoplay\tAttr"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"fun",
+				"function with name"
+			],
+			[
+				"res",
+				"result\tFileReader"
+			],
+			[
+				"if",
+				"if()"
+			],
+			[
+				"alert",
+				"alert(message)\tWindow"
+			],
+			[
+				"local",
+				"localhost"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/partials/desktop-nav.html",
+			"settings":
+			{
+				"buffer_size": 663,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 506,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/pages/index.html",
+			"settings":
+			{
+				"buffer_size": 1160,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/assets/scss/components/_front-page.scss",
+			"settings":
+			{
+				"buffer_size": 361,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/assets/scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 1754,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/assets/scss/components/_desktop-nav.scss",
+			"settings":
+			{
+				"buffer_size": 686,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/assets/scss/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 14488,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 384.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/M/Dropbox/Development/www/project_x",
+		"/M/Dropbox/Development/www/project_x/src",
+		"/M/Dropbox/Development/www/project_x/src/assets",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components"
+	],
+	"file_history":
+	[
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/_front-page.scss",
+		"/M/Dropbox/Development/www/project_x/config.yml",
+		"/M/Dropbox/Development/www/project_x/gulpfile.babel.js",
+		"/M/Dropbox/Development/www/project_x/src/partials/header.html",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/_header.scss",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/partials/header.html",
+		"/M/Dropbox/Development/www/how-to-be-massive/gulpfile.babel.js",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/assets/fonts/_fonts.css",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/assets/scss/app.scss",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/assets/js/app.js",
+		"/M/Dropbox/Development/www/how-to-be-massive/bower_components/typed/js/typed.js",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/partials/intro.html",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/assets/img/htbm-icons-02-02.svg",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/assets/scss/_settings.scss",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/assets/img/htbm-icons-02.svg",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/assets/img/HTBM_cover.svg",
+		"/M/Dropbox/Development/www/how-to-be-massive/config.yml",
+		"/M/Dropbox/Development/www/how-to-be-massive/dist/assets/js/app.js",
+		"/M/Dropbox/Development/www/how-to-be-massive/dist/index.html",
+		"/M/Dropbox/Development/www/how-to-be-massive/bower.json",
+		"/M/Dropbox/Development/www/how-to-be-massive/.babelrc",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/pages/index.html",
+		"/M/Dropbox/Development/www/how-to-be-massive/src/layouts/default.html",
+		"/M/Dropbox/Development/www/how-to-be-massive/bower_components/foundation-icon-fonts/README.md",
+		"/M/Dropbox/Development/www/Foundation Docs/foundation-docs/index.js",
+		"/M/Dropbox/Development/www/Foundation Docs/foundation-docs/README.md",
+		"/M/Dropbox/Development/www/Foundation Docs/foundation-docs/package.json",
+		"/M/Dropbox/Development/www/project_x/skksks",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/_settings.scss",
+		"/M/Dropbox/Development/www/project_x/src/partials/desktop-nav.html",
+		"/M/Dropbox/Development/www/project_x/src/partials/contact-form.html",
+		"/M/Dropbox/Development/www/project_x/src/pages/index.html",
+		"/M/Dropbox/Development/www/project_x/src/layouts/default.html",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/_menu-fouc.scss",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/_mobile-nav.scss",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/app.scss",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/_desktop-nav.scss",
+		"/M/Dropbox/Development/www/project_x/src/assets/js/app.js",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/_junction.scss",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/desktop-nav.scss",
+		"/M/Dropbox/Development/www/project_x/bower_components/jquery/.bower.json",
+		"/M/Dropbox/Development/www/project_x/src/partials/footer.html",
+		"/M/Dropbox/Development/www/project_x/src/partials/mobile-nav.html",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/footer.scss",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/mobile-nav.scss",
+		"/M/Dropbox/Development/www/project_x/src/assets/scss/components/menu-fouc.scss",
+		"/M/Dropbox/Development/www/project_x/readme.md",
+		"/M/Dropbox/Development/www/project_one/src/partials/navigation.html",
+		"/M/Dropbox/Development/www/project_x/src/partials/nav-bar-offcanvas.html",
+		"/M/dropbox/development/www/project_one/src/assets/scss/_custom.scss",
+		"/M/dropbox/development/www/project_one/src/partials/testimonials.html",
+		"/M/dropbox/development/www/project_one/src/partials/slider.html",
+		"/M/dropbox/development/www/project_one/src/partials/header.html",
+		"/M/dropbox/development/www/project_one/src/partials/sendyourdesign.html",
+		"/M/dropbox/development/www/project_one/src/partials/ourdesigns.html",
+		"/M/dropbox/development/www/project_one/src/partials/about.html",
+		"/M/dropbox/development/www/project_one/src/layouts/default.html",
+		"/M/dropbox/development/www/project_one/src/partials/navigation.html",
+		"/M/dropbox/development/www/project_one/src/partials/footer.html",
+		"/M/dropbox/development/www/project_one/src/assets/js/app.js",
+		"/M/dropbox/development/www/project_one/src/partials/designs.html",
+		"/M/dropbox/development/www/project_one/dist/index.html",
+		"/M/dropbox/development/www/project_one/src/assets/scss/app.scss",
+		"/M/dropbox/development/www/project_one/gulpfile.babel.js",
+		"/M/dropbox/development/www/project_one/src/data/shirts.json",
+		"/M/dropbox/development/www/project_one/src/assets/scss/_settings.scss",
+		"/M/dropbox/development/www/project_one/dist/assets/css/foundation-icons.css",
+		"/M/Dropbox/Warble Designs/Web Design/UI Elements/foundation-icons/foundation-icons/foundation-icons.css",
+		"/M/dropbox/development/www/project_one/src/pages/index.html",
+		"/M/dropbox/development/www/project_one/src/pages/about.html",
+		"/M/dropbox/development/www/project_one/src/data/todo.yml",
+		"/M/dropbox/development/www/project_one/src/data/employees.json",
+		"/C/Users/NESTED/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/M/dropbox/development/www/project_one/dist/about.html",
+		"/M/dropbox/development/www/project_one/package.json",
+		"/M/dropbox/development/www/project_one/src/styleguide/index.md",
+		"/C/Users/NESTED/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/M/dropbox/development/www/project_one/dist/styleguide.html",
+		"/M/Dropbox/Development/www/project_zero/gulpfile.js",
+		"/M/Dropbox/Development/www/project_zero/js/app.js",
+		"/M/Dropbox/Development/www/project_zero/index.html",
+		"/M/Dropbox/Development/www/project_zero/scss/_custom.scss",
+		"/M/Dropbox/Development/www/project_zero/scss/app.scss",
+		"/M/Dropbox/Development/www/project_zero/scss/_settings.scss",
+		"/M/Dropbox/Development/www/project_zero/css/foundation-icons.css",
+		"/M/Dropbox/Development/www/project_zero/bower_components/foundation-icon-fonts/_foundation-icons.scss",
+		"/M/Dropbox/Development/www/project_zero/css/app.css",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-content/themes/abssolutefitness/assets/scss/modules/_navigation.scss",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-content/themes/abssolutefitness/assets/scss/templates/_front.scss",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-content/themes/abssolutefitness/assets/scss/foundation.scss",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-content/themes/abssolutefitness/header.php",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-content/themes/abssolutefitness/page-templates/kitchen-sink.php",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-content/themes/abssolutefitness/page-templates/front.php",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-config.php",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-content/themes/abssolutefitness/assets/scss/global/_settings.scss",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-content/themes/abssolutefitness/assets/components/foundation-sites/scss/settings/_settings.scss",
+		"/M/Dropbox/Development/www/Abssolutefitness/wp-content/themes/abssolutefitness/page-templates/page-full-width.php"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"div",
+			"hollow-",
+			"callout",
+			"important",
+			"button-hollow",
+			"typed-cursor",
+			"typed",
+			"id=\"#typed-strings\"",
+			"social",
+			"fi-address-book",
+			"<li>",
+			"</li>",
+			">\n",
+			"<li>",
+			"</li>",
+			"<li>",
+			"=\"\">",
+			"hollow ",
+			"hollow",
+			"button",
+			".",
+			"class=\"button\"",
+			"starbuck",
+			"title",
+			"top",
+			"top-bar",
+			"top bar",
+			"off",
+			"label",
+			"form",
+			"button",
+			"medium-8",
+			"font-weight",
+			"bold",
+			" font-weight",
+			"font-weight",
+			"form",
+			"body-font-color",
+			"foundation",
+			"f",
+			"columns",
+			"medium-4 ",
+			"foundation palette",
+			"</div>",
+			"flex",
+			"<!-- .large-10 -->",
+			"><!--",
+			"home",
+			"#",
+			"alert",
+			"}\n",
+			"menu",
+			"<li><a href=\"#\">home</a></li>",
+			"img",
+			"\">\n",
+			"addtwoNumbers();",
+			"();",
+			"myFunction",
+			"myFunction();",
+			"doxumentRoot",
+			"indexes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/partials/desktop-nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								421
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/pages/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								696,
+								695
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/assets/scss/components/_front-page.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/assets/scss/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1754,
+								1754
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 850.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/assets/scss/components/_desktop-nav.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 510.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/assets/scss/_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14259,
+								14259
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9817.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "NESTED.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app",
+				"js\\app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"M:\\Dropbox\\Development\\www\\how-to-be-massive\\htbm.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 375.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
