@@ -5,10 +5,11 @@
 @import 'motion-ui';
 @import 'bower_components/foundation-icon-fonts/_foundation-icons';
 @import 'components/junction';
+@import 'components/header';
+@import 'components/custom-buttons';
 @import 'components/menu-fouc';
 @import 'components/mobile-nav';
 @import 'components/desktop-nav';
-@import 'components/header';
 @import 'components/front-page';
 
 @include foundation-global-styles;
@@ -18,10 +19,10 @@
 @include foundation-button;
 @include foundation-forms;
 // @include foundation-range-input;
-@include foundation-accordion;
-@include foundation-accordion-menu;
-@include foundation-badge;
-@include foundation-breadcrumbs;
+//@include foundation-accordion;
+//@include foundation-accordion-menu;
+//@include foundation-badge;
+//@include foundation-breadcrumbs;
 @include foundation-button-group;
 @include foundation-callout;
 @include foundation-close-button;
@@ -36,18 +37,18 @@
 @include foundation-off-canvas;
 @include foundation-orbit;
 @include foundation-pagination;
-@include foundation-progress-bar;
+//@include foundation-progress-bar;
 // @include foundation-progress-element;
 // @include foundation-meter-element;
 @include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal;
-@include foundation-switch;
+//@include foundation-switch;
 @include foundation-table;
 @include foundation-tabs;
 @include foundation-thumbnail;
 @include foundation-title-bar;
-@include foundation-tooltip;
+//@include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
@@ -56,5 +57,4 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-/** 
-On the fly styling to be split up into components**/
+/** On the fly styling to be split up into components**/

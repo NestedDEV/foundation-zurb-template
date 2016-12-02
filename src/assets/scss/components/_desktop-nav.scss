@@ -1,44 +1,40 @@
 /**desktop-nav**/
-//sticky container and contents
+//sticky container and top-bar elements
+// For buttons - refer to _buttons.scss component under "Nav Buttons"
+
+
 [data-sticky] {
 	width: 100%;
 }
 .sticky-container {
-
+		height:98px !important;
 }
 .top-bar {
-	transition: all .35s;
+	height: rem-calc(80);
+	transition: all .2s;
 	width:100%;
 	.top-bar-title h1 {
-		display: none;
+		opacity:0;
+		height: 0;
+		transition: opacity .2s ease-in;
+		-webkit-transition: opacity .2s ease-in;
+		color: $secondary-color;
+		font-size: rem-calc(22);
 	}
 }
 .is-stuck .top-bar {
-	padding: 1rem;
-	transition: all .35s;
+	height: rem-calc(110);
+	transition: height .2s;
+	-webkit-transition: height .2s;
 	.top-bar-title h1 {
-		display: inline-block;
+		opacity:1;
+		height:inherit;
+		transition: opacity 1s ease-out;
+		-webkit-transition: opacity 1s ease-out;
 		color: $secondary-color;
+		font-size: rem-calc(22);
 	}
 }
 .is-at-bottom .top-bar {
-	padding: 1rem;
-	transition: all 0s;
-}
-//button group styles
-.btn-group {
-	@include button-group-expand('.hollow-button');
-	.hollow-button:first-child {
-    border-radius: rem-calc(0 0 0 0);
-
-  }
-  .hollow-button:last-child {
-    border-radius: rem-calc(0 0 0 0);
-  }
-	
-
-}
-.hollow-button {
-	@include button ($style:hollow);
-	
+	transition: all 1s;
 }

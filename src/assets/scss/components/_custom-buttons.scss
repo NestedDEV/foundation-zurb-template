@@ -1,0 +1,21 @@
+/** Buttons SCSS **/
+// CTA Buttons
+// button styles for call to action and once of instances outside the remit of repetitive UI
+.cta-button {
+	@include button ($expand:true, $background-hover:$primary-color, $color:$primary-color, $style:hollow);
+}
+// Nav Buttons
+// button group styles for navigation
+.btn-group {
+	@include button-group-expand('.hollow-button');
+	.hollow-button:first-child {
+    border-radius: rem-calc(0 0 0 0);
+  }
+  .hollow-button:last-child {
+    border-radius: rem-calc(0 0 0 0);
+  }
+}
+.hollow-button {
+	@include button ($style:hollow);	
+}
+
