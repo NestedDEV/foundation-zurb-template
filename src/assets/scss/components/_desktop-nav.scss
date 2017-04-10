@@ -18,7 +18,7 @@
 		height: 0;
 		transition: opacity .2s ease-in;
 		-webkit-transition: opacity .2s ease-in;
-		color: $secondary-color;
+		color: $white;
 		font-size: rem-calc(22);
 	}
 }
@@ -29,9 +29,9 @@
 	.top-bar-title h1 {
 		opacity:1;
 		height:inherit;
-		transition: opacity 1s ease-out;
-		-webkit-transition: opacity 1s ease-out;
-		color: $secondary-color;
+		transition: opacity .1s ease-out;
+		-webkit-transition: opacity .1s ease-out;
+		color: $white;
 		font-size: rem-calc(22);
 	}
 }

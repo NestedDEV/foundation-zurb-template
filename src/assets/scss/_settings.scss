@@ -50,16 +50,20 @@ $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
   primary: #88B0B8,
-  secondary: #FBF5F3,
+  secondary: #ffffff,
   success: #3adb76,
   warning: #ffae00,
   alert: #ec5840,
 );
-$light-gray: #2A3639;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$primary-light: #B3CDD2;
+$primary-lighter: #DFE9EC;
+$primary-dark: #577075;
+$primary-darker: #253032;
+$light-gray: #DFE3E4;
+$medium-gray: #B5B9BA;
+$dark-gray: #606465;
+$black: #0C1011;
+$white: #F4F8F9;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Junction';

@@ -2,7 +2,7 @@
 // CTA Buttons
 // button styles for call to action and once of instances outside the remit of repetitive UI
 .cta-button {
-	@include button ($expand:true, $background-hover:$primary-color, $color:$primary-color, $style:hollow);
+	@include button($background:$primary-lighter, $color:$primary-darker, $style:hollow);
 }
 // Nav Buttons
 // button group styles for navigation
