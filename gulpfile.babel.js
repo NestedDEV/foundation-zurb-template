@@ -145,4 +145,5 @@ function watch() {
   gulp.watch('src/assets/img/**/*').on('change', gulp.series(images, browser.reload));
   gulp.watch('src/styleguide/**').on('change', gulp.series(styleGuide, browser.reload));
   gulp.watch(['src/assets/scss/**/* {tff,woff,eof,svg}.']['copyfonts'])
+
 }
