@@ -4,3 +4,4 @@ npm-debug.log
 NESTED.sublime-workspace
 bower_components
 dist
+*.swp
