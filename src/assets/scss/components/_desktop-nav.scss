@@ -2,39 +2,55 @@
 //sticky container and top-bar elements
 // For buttons - refer to _buttons.scss component under "Nav Buttons"
 
+/**desktop-nav**/
 
 [data-sticky] {
 	width: 100%;
 }
 .sticky-container {
-		height:98px !important;
+	height:rem-calc(77) !important;
 }
 .top-bar {
-	height: rem-calc(80);
-	transition: all .2s;
-	width:100%;
-	.top-bar-title h1 {
-		opacity:0;
+	padding: 2rem 0 0 0;
+	transition: padding .25s ease;
+	.top-bar-title {
+		padding:0 0 0 0;
 		height: 0;
+		margin-bottom: 0;
+		opacity:0;
 		transition: opacity .2s ease-in;
 		-webkit-transition: opacity .2s ease-in;
-		color: $white;
-		font-size: rem-calc(22);
+		
+		& h1 {
+			opacity:0;
+			transition: opacity .2s ease-in;
+			-webkit-transition: opacity .2s ease-in;
+			color: $primary-color;
+			font-size: rem-calc(22);
+		}
 	}
 }
+
 .is-stuck .top-bar {
-	height: rem-calc(110);
-	transition: height .2s;
-	-webkit-transition: height .2s;
-	.top-bar-title h1 {
+	padding: .5rem 0 0 0;
+	transition: padding .25s ease;
+	.top-bar-title {
+		height: rem-calc(30);
 		opacity:1;
-		height:inherit;
-		transition: opacity .1s ease-out;
+		transition: all .1s ease-out;
 		-webkit-transition: opacity .1s ease-out;
-		color: $white;
-		font-size: rem-calc(22);
+
+		& h1 {
+			padding: 0 0 0.5rem 0.5rem;
+			opacity:1;
+			transition: all .1s ease-out;
+			-webkit-transition: opacity .1s ease-out;
+		}	
 	}
 }
+
+
+
 .is-at-bottom .top-bar {
 	transition: all 1s;
 }

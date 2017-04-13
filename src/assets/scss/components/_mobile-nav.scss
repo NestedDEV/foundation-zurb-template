@@ -4,21 +4,29 @@ div.off-canvas {
 
 }
 .title-bar {
-	transition: all .35s;
+	padding: 2rem 0 0 0;
+	transition: padding .25s ease;
 
 }
 
 .is-stuck .title-bar {
 	padding: .5rem;
 	transition: all .35s;
-	background-color: transparent;
-	button.menu-icon {
-		color: black;
+	background-color: $primary-color;
+& button.menu-icon::after {
+    background: $white;
+    box-shadow: 0 7px 0 $white, 0 14px 0 $white;
+    :hover {
+    	background: $light-gray;
+    box-shadow: 0 7px 0 $light-gray, 0 14px 0 $light-gray;
+    }
+}
+}	
 	
 
-}
-}
+
 .is-at-bottom .title-bar {
 	padding: .5rem;
 	transition: all 0s;
 }
+
