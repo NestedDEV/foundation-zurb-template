@@ -13,16 +13,16 @@ div.off-canvas {
 	padding: .5rem;
 	transition: all .35s;
 	background-color: $primary-color;
-& button.menu-icon::after {
-    background: $white;
-    box-shadow: 0 7px 0 $white, 0 14px 0 $white;
-    :hover {
-    	background: $light-gray;
-    box-shadow: 0 7px 0 $light-gray, 0 14px 0 $light-gray;
-    }
-}
+	& button.menu-icon::after {
+		background: $white;
+		box-shadow: 0 7px 0 $white, 0 14px 0 $white;
+		:hover {
+			background: $light-gray;
+			box-shadow: 0 7px 0 $light-gray, 0 14px 0 $light-gray;
+		}
+	}
 }	
-	
+
 
 
 .is-at-bottom .title-bar {
@@ -30,3 +30,14 @@ div.off-canvas {
 	transition: all 0s;
 }
 
+.close-button-area {
+	background-color: $white;
+	height:rem-calc(35);
+	width:auto;
+	 
+		
+}
+
+.close-button {
+
+}
