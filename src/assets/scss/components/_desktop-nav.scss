@@ -27,6 +27,7 @@
 			-webkit-transition: opacity .2s ease-in;
 			color: $primary-color;
 			font-size: rem-calc(22);
+			display: none;
 		}
 	}
 }
@@ -45,10 +46,16 @@
 			opacity:1;
 			transition: all .1s ease-out;
 			-webkit-transition: opacity .1s ease-out;
+			display:initial;
 		}	
 	}
 }
 
+.top-bar-title h6 {
+	position:absolute; 
+	top:11px; 
+	left:100px;
+}
 
 
 .is-at-bottom .top-bar {

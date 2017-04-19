@@ -32,11 +32,15 @@ div.off-canvas {
 
 .close-button-area {
 	background-color: $white;
-	height:rem-calc(35);
+	height: rem-calc(35);
 	width:auto;
-	 
 		
 }
+.off-canvas h3 {
+		color: $primary-color;
+		padding: rem-calc(10 0 0 5);
+		align: baseline;
+	} 
 
 .close-button {
 
