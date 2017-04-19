@@ -1,5 +1,4 @@
-**This is a customized build for Nested.ie, a portfolio website for web dev & design.
-**The Master repo is a direct clone of (https://github.com/zurb/foundation-zurb-template) but may be out of date by a few commits from the Zurb Team)
+**This is a customized build for Nested.ie, a portfolio website for web dev & design. The Master repo is a direct clone of (https://github.com/zurb/foundation-zurb-template) but may be out of date by a few commits from the origin which is linked in this comment)
 # ZURB Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
