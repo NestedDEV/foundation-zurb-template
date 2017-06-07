@@ -92,7 +92,7 @@ function sass() {
     .pipe(browser.reload({ stream: true }));
 }
 
-// This task kopiert die Iconfont ins css-verzeichnis
+// This task copies the icon fonts into CSS directory
   function copyfonts() {
     return gulp.src('./bower_components/foundation-icon-fonts/**/*.{ttf,woff,eoff,svg}').pipe(gulp.dest('dist/assets/css'));
   };
